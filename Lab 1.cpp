@@ -1,7 +1,7 @@
 #include <vector> 
 #include <iostream>
 using namespace std;
- int main()
+ int main();
  {
 
 	vector<char> v;
@@ -13,9 +13,9 @@ using namespace std;
 	v.push_back('i');
 	v1.pop_back();
 
-	for (int i = 0; 1 < 4; i++)
+	for (int i = 0; i < 4; i++)
 		v1.push_back(0);
    
-	for (int i = 0; i < v1.size() ; i++)
+	for (auto i = 0u; i < v1.size() ; i++)
 		cout<<v1[i]<<" ";
  }   
